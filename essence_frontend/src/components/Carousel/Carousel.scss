@@ -1,0 +1,44 @@
+
+.imagesSlides1{
+    background-image: url(../../essets/images/Slider/slider1.jpg);
+}
+.imagesSlides2{
+    background-image: url(../../essets/images/Slider/slider2.jpg);
+}
+.imagesSlides3{
+    background-image: url(../../essets/images/Slider/slider3.jpg);
+}
+.imagesSlides4{
+    background-image: url(../../essets/images/Slider/slider4.jpg);
+}
+.imagesSlides5{
+    background-image: url(../../essets/images/Slider/slider5.jpg);
+}
+.imagesSlides6{
+    background-image: url(../../essets/images/Slider/slider6.jpg);
+}
+
+.caraoselSlider{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 40vh;
+}
+.slick-prev{
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+}
+.slick-prev:before {
+    content: '←';
+    color: yellow;
+}
+.slick-next{
+    position: absolute;
+    right: 20px;
+    z-index: 1;
+}
+.slick-next:before {
+    content: '→';
+    color: yellow;
+}
